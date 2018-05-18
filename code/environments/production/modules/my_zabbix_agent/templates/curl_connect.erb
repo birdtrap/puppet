@@ -1,0 +1,28 @@
+{
+   "jsonrpc": "2.0",
+   "method": "host.create",
+   "params": {
+      "host": <%= @hostname %>,
+      "interfaces": [
+        {
+          "type": 1,
+          "main": 1,
+          "useip": 1,
+          "ip": <%= @networking['interfaces']['enp0s8']['ip']%>,
+          "dns": "",
+          "port": "10050"
+        }
+      ],
+      "groups": [
+        {
+          "groupid": "2"
+        }
+      ],
+      "templates": [
+        {
+          "templateid": "10001"
+        }
+      ]
+  },
+  "id": 1,
+  "auth":

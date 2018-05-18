@@ -1,0 +1,8 @@
+profile::true_zabbix::z_agent::server_ip: "192.168.56.112"
+profile::true_zabbix::z_server::apache_module: "prefork"
+profile::true_zabbix::z_server::url: "zabbix.example.com"
+profile::true_zabbix::z_server::db_type: "mysql"
+profile::true_zabbix::z_server::server_ip_agt: "127.0.0.1"
+profile::true_zabbix::z_server::api_user: "Admin"
+profile::true_zabbix::z_server::api_pass: "zabbix"
+
